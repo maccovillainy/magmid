@@ -1,0 +1,21 @@
+.app
+  &__sidebar
+    width: 200px
+    margin: 155px 240px 0 0
+    &__ul:not(:last-child)
+      margin-bottom: 35px
+    &__li:not(:last-child)
+      margin-bottom: 20px
+    &__a
+      display: flex
+      align-items: center
+      padding-left: 20px
+      position: relative
+      transition: color .3s
+      &:hover
+        color: $active
+    &__img
+      position: absolute
+      left: 0
+    &__span
+      margin-left: 35px
